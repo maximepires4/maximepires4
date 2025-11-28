@@ -14,7 +14,7 @@ Je construis des systèmes robustes en alliant mathématiques avancées et optim
 
 J'ai développé un framework de Deep Learning complet **from scratch** en utilisant uniquement **NumPy**. Ce n'est pas juste un projet éducatif, c'est une librairie optimisée pour la performance.
 
-* **⚡ Performance :** Vectorisation complète et implémentation de `im2col` pour les convolutions (26% de gain de vitesse vs boucles naïves).
+* **⚡ Performance :** Vectorisation complète et implémentation de `im2col` pour les convolutions (400% de gain de vitesse vs boucles naïves).
 * **🛠 Ingénierie :** Pipeline CI/CD, Typage statique (MyPy), Linting (Ruff) et Tests unitaires.
 * **🧠 Fonctionnalités :** Conv2D, AdamW, Dropout, Early Stopping, et sérialisation de modèles.
 
