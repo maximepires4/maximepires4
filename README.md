@@ -12,6 +12,8 @@ Je construis des systèmes robustes en alliant mathématiques avancées et optim
 
 > *Pourquoi utiliser une boîte noire quand on peut construire le moteur ?*
 
+<center><img src="./images/example.gif" width="50%" height="50%"></center>
+
 J'ai développé un framework de Deep Learning complet **from scratch** en utilisant uniquement **NumPy**. Ce n'est pas juste un projet éducatif, c'est une librairie optimisée pour la performance.
 
 * **⚡ Performance :** Vectorisation complète et implémentation de `im2col` pour les convolutions (400% de gain de vitesse vs boucles naïves).
@@ -46,6 +48,7 @@ J'ai développé un framework de Deep Learning complet **from scratch** en utili
 
 ## 📊 En bref
 
+* 📄 **CV / Resume :** [🇫🇷 Français](./CV_Maxime_Pires_Ingenieur_IA.pdf) | [🇬🇧 English](./Resume_Maxime_Pires_AI_Engineer.pdf)
 * 🎓 **Formation :** Diplômé de **CentraleSupélec** (Ingénierie IA) & **ECE** Paris.
 * 🔭 **Actuellement :** Je travaille sur l'optimisation bas niveau de réseaux de neurones.
 * 📫 **Me contacter :** [LinkedIn](https://www.linkedin.com/in/maximepires) | [Email](mailto:maximepires4@gmail.com)

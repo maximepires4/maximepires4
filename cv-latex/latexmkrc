@@ -1,0 +1,18 @@
+# Force usage of XeLaTeX (recommended for AltaCV fonts/icons)
+$pdf_mode = 5;
+
+# Command flags specifically requested by AltaCV README (pdfx compatibility)
+$xelatex = 'xelatex -shell-escape -output-driver="xdvipdfmx -z 0" %O %S';
+# $xelatex = 'xelatex -synctex=1 -interaction=nonstopmode -file-line-error -shell-escape -output-driver="xdvipdfmx -z 0" %O %S';
+
+# Previewer configuration (optional, VimTeX handles this mostly, but good backup)
+# $pdf_previewer = 'xdg-open';
+
+# Output directory
+$out_dir = 'output';
+
+# Cleanup options
+$clean_ext = 'synctex.gz xdv';
+
+# Speed up latexmk-xelatex compilation re pdfx (Original setting)
+$hash_calc_ignore_pattern{'timestamp'} = '^';

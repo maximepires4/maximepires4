@@ -1,0 +1,276 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.7.2, 28 August 2024) written by LianTze Lim (liantze@gmail.com). Compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[9pt,a4paper,ragged2e,withhyper]{altacv}
+%% AltaCV uses the fontawesome5 and simpleicons packages.
+%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/simpleicons for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+% WHEN COMPILING WITH XELATEX PLEASE USE
+% xelatex -shell-escape -output-driver="xdvipdfmx -z 0" sample.tex
+\iftutex 
+  % If using xelatex or lualatex:
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  % If using pdflatex:
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  % \usepackage{sourcesanspro}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Change the colours if you want to
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelRed}{HTML}{450808}
+\definecolor{PastelRed}{HTML}{8F0D0D}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+\colorlet{name}{black}
+\colorlet{tagline}{PastelRed}
+\colorlet{heading}{DarkPastelRed}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelRed}
+\colorlet{accent}{PastelRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+% ...and the markers for the date/location for \cvevent
+% \renewcommand{\cvDateMarker}{\faCalendar*[regular]}
+% \renewcommand{\cvLocationMarker}{\faMapMarker*}
+
+
+% If your CV/résumé is in a language other than English,
+% then you probably want to change these so that when you
+% copy-paste from the PDF or run pdftotext, the location
+% and date marker icons for \cvevent will paste as correct
+% translations. For example Spanish:
+% \renewcommand{\locationname}{Ubicación}
+% \renewcommand{\datename}{Fecha}
+
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want to use an author-year reference style like APA(6)
+%% for your publication list
+% \input{pubs-authoryear.tex}
+
+%% Use (and optionally edit if necessary) this .tex if you
+%% want an originally numerical reference style like IEEE
+%% for your publication list
+\input{pubs-num.tex}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+% \usepackage{academicons}\let\faOrcid\aiOrcid
+\begin{document}
+\name{Maxime Pires}
+\tagline{Ingénieur IA | CentraleSupelec}
+%% You can add multiple photos on the left or right
+\photoL{2.8cm}{portrait}
+
+\sentences{
+Ingénieur IA diplômé de CentraleSupelec avec une expertise en \textbf{Deep Learning} (Architecture bas niveau \& NLP). Capacité démontrée à construire des solutions ML complexes et à optimiser des pipelines de données. Passionné par l'alliance entre rigueur mathématique et ingénierie logicielle.
+}
+
+\personalinfo{%
+  % Not all of these are required!
+  \email{maximepires4@gmail.com}
+  \phone{07 70 44 82 97}
+  %\location{Paris / Lyon}
+  \linkedin{maximepires}
+  \github{maximepires4}
+  %% You can add your own arbitrary detail with
+  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
+  % \printinfo{\faPaw}{Hey ho!}[https://example.com/]
+
+  %% Or you can declare your own field with
+  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+  % \gitlab{your_id}
+  %%
+  %% For services and platforms like Mastodon where there isn't a
+  %% straightforward relation between the user ID/nickname and the hyperlink,
+  %% you can use \printinfo directly e.g.
+  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
+  %% But if you absolutely want to create new dedicated info fields for
+  %% such platforms, then use \NewInfoField* with a star:
+  % \NewInfoField*{mastodon}{\faMastodon}
+  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
+  %% the full hyperlink.
+  % \mastodon{@username@instance}{https://instance.url/@username}
+}
+
+\makecvheader
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.7}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+\cvsection{Expériences}
+
+\cvevent{Ingénieur IA - Stage}{Ministère des Armées}{Septembre 2024 -- Février 2025}{Paris}
+\textbf{R\&D sur l'analyse sémantique et syntaxique de corpus via Word Embeddings.}
+\linebreak
+\begin{itemize}
+\item Conception d'un pipeline NLP end-to-end pour l'analyse sémantique de corpus massif (plusieurs Go) : du pré-traitement (nettoyage, tokenisation) à la vectorisation optimisée.
+\item Analyse comparative de l'état de l'art (SOTA) sur les modèles de langage (Word2Vec, BERT, GPT) pour orienter les choix architecturaux vers la solution la plus robuste.
+\item Optimisation de la représentation vectorielle : Développement de métriques d'évaluation sur-mesure (erank, edim) pour maximiser la densité informationnelle et réduire la dimensionnalité des vecteurs.
+\item \textit{Stack : Python, Scikit-learn, Gensim, Transformers, Pandas.}
+\end{itemize}
+
+\divider
+
+\cvevent{Ingénieur Data \& Full Stack - Stage}{Ministère des Armées}{Février 2023 -- Août 2023}{Paris}
+\textbf{Création d'un outil pour faciliter le traitement de données scientifiques.}
+\linebreak
+\begin{itemize}
+\item Développement d'une application web scientifique (Next.js) pour centraliser et fluidifier l'analyse de données critiques.
+\item Optimisation drastique de la performance : Mise en place d'algorithmes permettant le traitement automatisé de milliers de dossiers en quelques secondes, remplaçant une analyse manuelle coûteuse.
+\item Conception d'une base de données relationnelle garantissant l'intégrité des données scientifiques et un accès temps réel aux résultats (PostgreSQL).
+\end{itemize}
+
+\medskip
+
+\cvsection{Projets}
+
+\cvevent{\faBrain[regular] MPNeuralNetwork}{Librairie Deep Learning from scratch en Python/NumPy vectorisée}{}{}
+\begin{itemize}
+  \item Implémentation manuelle des Layers (1D \& 2D avec `im2col`), Optimizers (Backpropagation), Losses, Activations, et Metrics.
+  \item Moteur "intelligent" pour automatiser les meilleures pratiques du Deep Learning (early stopping, checkpoint, initialisation des poids, régularisation)
+  \item Optimisation des performances : x4 speedup grâce à la vectorisation complète (Batch processing).
+  \item Gestion de la stabilité numérique (Log-Sum-Exp trick).
+  \item \textbf{Industrialisation \& Qualité} : Pipeline CI/CD automatisé (GitHub Actions), typage statique (MyPy), linting moderne (Ruff, Pre-commit) et tests unitaires (Pytest).
+\end{itemize}
+
+\divider
+
+\cvevent{\faEye[regular] Handwriting Recognition}{Application GUI temps réel de reconnaissance de chiffres (MNIST)}{}{}
+\begin{itemize}
+    \item Application direct de MPNeuralNetwork.
+    \item Précision de 98\% avec un réseau Fully Connected, 99\% avec un CNN.
+    \item Pipeline de pré-traitement d'image (Centrage de masse, Redimensionnement) similaire aux standards MNIST.
+\end{itemize}
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+\medskip
+
+\cvsection{Formations}
+
+\cvevent{CentraleSupelec}{Intelligence Artificielle}{2023 -- 2025}{Paris}
+Double diplôme
+
+\divider
+
+\cvevent{ECE - École d'ingénieur}{Sciences de l'information}{2019 -- 2023}{Paris}
+Section internationale
+
+\medskip
+
+\cvsection{Compétences}
+
+% Don't overuse these \cvtag boxes — they're just eye-candies and not essential. If something doesn't fit on a single line, it probably works better as part of an itemized list (probably inlined itemized list), or just as a comma-separated list of strengths.
+
+% The `ragged2e` document class option might cause automatic linebreaks between \cvtag to fail.
+% Either remove the ragged2e option; or 
+% add \LaTeXraggedright in the paragraph for these \cvtag
+
+\cvevent{IA \& Data Science}{
+\cvtag{Python}
+\cvtag{Scikit-learn}
+\cvtag{SQL}
+\cvtag{PyTorch}
+\cvtag{Pandas}
+\cvtag{NumPy}
+}{}{}
+
+\divider
+
+\cvevent{Engineering \& DevOps}{
+\cvtag{Git}
+\cvtag{Linux}
+\cvtag{Docker}
+}{}{}
+
+\divider
+
+\cvevent{Web \& App}{
+\cvtag{React}
+\cvtag{Next.js}
+\cvtag{TypeScript}
+\cvtag{C++}
+\cvtag{Java}
+}{}{}
+
+\medskip
+
+\cvsection{Langues}
+
+\cvachievement{C2}{Français}{Langue maternelle}
+
+\divider
+
+\cvachievement{C1}{Anglais}{TOEIC 965/990}
+
+%% Yeah I didn't spend too much time making all the
+%% spacing consistent... sorry. Use \smallskip, \medskip,
+%% \bigskip, \vspace etc to make adjustments.
+\medskip
+
+\cvsection{Intérêts}
+
+\cvachievement{$\bullet$}{Informatique}{Open-source, Unix}
+
+\divider
+
+\cvachievement{$\bullet$}{Sport}{Handball, Vélo, Plongée}
+
+\divider
+
+\cvachievement{$\bullet$}{Vulgarisation scientifique}{Maths, Physique, Biologie}
+
+\divider
+
+\cvachievement{$\bullet$}{Art}{Cinéma, Lecture, Musique}
+
+\end{paracol}
+
+\end{document}
