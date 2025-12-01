@@ -24,6 +24,20 @@ J'ai développé un framework de Deep Learning complet **from scratch** en utili
 
 ---
 
+## 🤖 Assistant IA : MPNN RAG
+
+> *Un assistant intelligent pour explorer ma librairie.*
+
+Pour faciliter l'adoption de **MPNeuralNetwork**, j'ai créé un agent **RAG (Retrieval-Augmented Generation)** capable de répondre aux questions techniques sur la documentation et le code.
+
+* **🔍 Architecture RAG :** Recherche Hybride (BM25 + ChromaDB) et Re-ranking (Cross-Encoder).
+* **🧠 Multi-LLM :** Support de Google Gemini, OpenAI et Ollama (Llama 3).
+* **💻 Interfaces :** Chat interactif via CLI ou Web (Streamlit).
+
+[**Voir le Projet**](https://github.com/maximepires4/mpnn-rag)
+
+---
+
 ## 🛠 Stack Technique
 
 **Deep Learning & Data Science**
