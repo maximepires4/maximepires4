@@ -14,11 +14,11 @@ Je construis des systèmes robustes en alliant mathématiques avancées et optim
 
 <center><img src="./images/example.gif" width="50%" height="50%"></center>
 
-J'ai développé un framework de Deep Learning complet **from scratch** en utilisant uniquement **NumPy**. Ce n'est pas juste un projet éducatif, c'est une librairie optimisée pour la performance.
+J'ai développé un framework de Deep Learning complet **from scratch** en utilisant uniquement **NumPy** (et **CuPy** pour le GPU).
 
-* **⚡ Performance :** Vectorisation complète et implémentation de `im2col` pour les convolutions (400% de gain de vitesse vs boucles naïves).
+* **⚡ Performance :** Vectorisation complète, support du GPU via CuPy et implémentation de `im2col` pour les convolutions.
 * **🛠 Ingénierie :** Pipeline CI/CD, Typage statique (MyPy), Linting (Ruff) et Tests unitaires.
-* **🧠 Fonctionnalités :** Conv2D, AdamW, Dropout, Early Stopping, et sérialisation de modèles.
+* **🧠 Fonctionnalités :** Conv2D, AdamW, Dropout, Early Stopping, sérialisation de modèles, ...
 
 [**Voir le Code**](https://github.com/maximepires4/mp-neural-network) | [**Voir la Démo MNIST**](https://github.com/maximepires4/handwriting-recognition)
 
