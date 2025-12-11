@@ -1,6 +1,21 @@
-# Salut, je suis Maxime Pires 👋
+# Maxime Pires
 
-### Ingénieur IA | CentraleSupélec | Passionné par les fondations du Deep Learning
+<div align="center">
+  <a href="https://www.linkedin.com/in/maximepires">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:maximepires4@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="./CV_Maxime_Pires_Ingenieur_IA.pdf">
+    <img src="https://img.shields.io/badge/CV-Français-00629B?style=flat&logo=adobe-acrobat-reader&logoColor=white" alt="CV Français" />
+  </a>
+  <a href="./Resume_Maxime_Pires_AI_Engineer.pdf">
+    <img src="https://img.shields.io/badge/Resume-English-00629B?style=flat&logo=adobe-acrobat-reader&logoColor=white" alt="Resume English" />
+  </a>
+</div>
+
+### Ingénieur IA | CentraleSupelec
 
 Je suis un ingénieur en Intelligence Artificielle spécialisé dans le **Deep Learning** et l'**Ingénierie Logicielle**. Mon approche est simple : pour maîtriser des outils complexes comme PyTorch ou TensorFlow, il faut d'abord comprendre ce qui se passe sous le capot.
 
@@ -10,9 +25,9 @@ Je construis des systèmes robustes en alliant mathématiques avancées et optim
 
 ## 🚀 Projet Phare : MPNeuralNetwork
 
-> *Pourquoi utiliser une boîte noire quand on peut construire le moteur ?*
+> *Réinventer la roue pour comprendre comment elle fonctionne*
 
-<center><img src="./images/example.gif" width="50%" height="50%"></center>
+<div align="center"><img src="./images/example.gif" width="50%" height="50%"></div>
 
 J'ai développé un framework de Deep Learning complet **from scratch** en utilisant uniquement **NumPy** (et **CuPy** pour le GPU).
 
@@ -40,23 +55,30 @@ Pour faciliter l'adoption de **MPNeuralNetwork**, j'ai créé un agent **RAG (Re
 
 ## 🛠 Stack Technique
 
+<div align="center">
+
 **Deep Learning & Data Science**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/-ScikitLearn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+<br>
+<img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/-ScikitLearn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
 
 **Engineering & DevOps**
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![CI/CD](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+<br>
+<img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white" />
 
 **Web & App**
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+<br>
+<img src="https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+
+</div>
 
 ---
 
@@ -64,8 +86,16 @@ Pour faciliter l'adoption de **MPNeuralNetwork**, j'ai créé un agent **RAG (Re
 
 * 📄 **CV / Resume :** [🇫🇷 Français](./CV_Maxime_Pires_Ingenieur_IA.pdf) | [🇬🇧 English](./Resume_Maxime_Pires_AI_Engineer.pdf)
 * 🎓 **Formation :** Diplômé de **CentraleSupélec** (Ingénierie IA) & **ECE** Paris.
-* 🔭 **Actuellement :** Je travaille sur l'optimisation bas niveau de réseaux de neurones.
+* 🔭 **Actuellement :** Je travaille sur l'implémentation bas niveau des réseaux de neurones.
 * 📫 **Me contacter :** [LinkedIn](https://www.linkedin.com/in/maximepires) | [Email](mailto:maximepires4@gmail.com)
 
 ---
-![Maxime's GitHub stats](https://github-readme-stats.vercel.app/api?username=maximepires4&show_icons=true&theme=radical)
+
+## 📊 Activité GitHub
+
+<div align="center">
+  <a href="https://github.com/maximepires4">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=maximepires4&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maximepires4&layout=compact&theme=radical&langs_count=8"/>
+  </a>
+</div>
